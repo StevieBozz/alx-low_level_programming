@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase followed by a new line execpt q and e
+ * main - Entry upper and lowercase alphabets, execpt q and e
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
 	char la;
 
@@ -12,7 +12,6 @@ int main (void)
 	{
 		if (la != 'e' && la != 'q')
 			putchar(la);
-			
 	}
 
 	putchar ('\n');
